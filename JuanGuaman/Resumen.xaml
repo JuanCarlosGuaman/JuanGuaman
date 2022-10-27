@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuanGuaman.Resumen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblusuario" Text="." HorizontalTextAlignment="End" FontSize="17" Background="#FFEBCD"/>
+            <Label x:Name="lblnombre" Text="." HorizontalTextAlignment="End" FontSize="17" Background="#FFEBCD"/>
+            <Label x:Name="lblmonto" Text="." HorizontalTextAlignment="End" FontSize="17" Background="#FFEBCD"/>
+            <Label Text="Resumen"
+                HorizontalOptions="CenterAndExpand" FontSize="Medium" Background="#FFEBCD"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

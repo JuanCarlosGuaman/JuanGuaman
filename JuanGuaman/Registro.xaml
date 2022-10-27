@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuanGuaman.Registro">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <Label x:Name="lblusuario" Text="." HorizontalTextAlignment="End" FontSize="17" Background="#FFEBCD"/>
+                <Label x:Name="lblnombre" Text="." HorizontalTextAlignment="End" FontSize="17" Background="#FFEBCD"/>
+
+                <Label Text="Registro"
+                HorizontalOptions="CenterAndExpand" FontSize="Medium" Background="#FFEBCD"/>
+                <Entry x:Name="txtNombre" Placeholder="Ingrese su Nombre"/>
+                <Entry x:Name="txtMonto" Placeholder="Ingrese Monto Inicial" Keyboard="Numeric" TextChanged="txtMonto_TextChanged" />
+                <Button x:Name="btnPagos" Text="Calcular Pago" Clicked="btnPagos_Clicked"/>
+
+                <Button x:Name="btnGuardar" Text="Guardar Información" Clicked="btnGuardar_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
